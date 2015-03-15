@@ -20,4 +20,4 @@ RUN         crontab /etc/oc-cron.conf
 EXPOSE      80
 EXPOSE      443
 
-
+CMD ["/bin/bash", "-e", "/usr/bin/bootstrap.sh"]
