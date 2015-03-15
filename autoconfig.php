@@ -1,7 +1,7 @@
 <?php
 $AUTOCONFIG = array(
   "adminlogin"    => "root",
-  "directory"     => "/www/owncloud/data",
+  "directory"     => "/var/www/owncloud/data",
   "dbtype"        => "mysql",
   "dbname"        => "owncloud",
   "dbuser"        => "root",
