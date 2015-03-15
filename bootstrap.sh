@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-chown -R www-data:www-data /var/www/owncloud /owncloud
+chown -R www-data:www-data /var/www/owncloud
 echo "Starting server..\n"
 
 
