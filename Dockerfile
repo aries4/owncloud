@@ -22,4 +22,5 @@ EXPOSE      443
 
 RUN 		mkdir -p /var/log/supervisor
 ADD 		supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+ADD			autoconfig.php /var/www/owncloud/config/autoconfig.php
 CMD ["/bin/bash", "-e", "/usr/bin/bootstrap.sh"]
