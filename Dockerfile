@@ -20,4 +20,4 @@ RUN         crontab /etc/oc-cron.conf
 EXPOSE      80
 EXPOSE      443
 
-ENTRYPOINT  ["bootstrap.sh"]
+
